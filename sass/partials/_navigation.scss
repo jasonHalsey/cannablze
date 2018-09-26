@@ -1,0 +1,7 @@
+.x-navbar .desktop .x-nav > li > a:hover, .x-navbar .desktop .x-nav > .x-active > a, .x-navbar .desktop .x-nav > .current-menu-item > a, .x-navbar .desktop .sub-menu a:hover, .x-navbar .desktop .sub-menu .x-active > a, .x-navbar .desktop .sub-menu .current-menu-item > a, .x-navbar .desktop .x-nav .x-megamenu > .sub-menu > li > a, .x-navbar .mobile .x-nav li > a:hover, .x-navbar .mobile .x-nav .x-active > a, .x-navbar .mobile .x-nav .current-menu-item > a {
+    color: $red!important;
+}
+
+.x-topbar .p-info, .x-topbar .p-info a, .x-navbar .desktop .x-nav > li > a, .x-navbar .desktop .sub-menu a, .x-navbar .mobile .x-nav li > a, .x-breadcrumb-wrap a, .x-breadcrumbs .delimiter {
+    color: $white!important;
+}

@@ -1,0 +1,105 @@
+/*
+
+Theme Name: Cannablze
+Theme URI: http://theme.co/x/
+Author: Halsey Design LLC.
+Author URI: http://halsey-design.com/
+Description: Custom X Child Theme Developed for Cannablze
+Version: 1.0.0
+Template: x
+
+*/
+/* line 1, sass/partials/_header.scss */
+.x-brand {
+  margin-top: 22px;
+  font-family: "Lato",sans-serif;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  color: #272727;
+  margin-bottom: 22px;
+}
+/* line 10, sass/partials/_header.scss */
+.x-brand img {
+  opacity: 1.0;
+}
+
+/* line 15, sass/partials/_header.scss */
+.x-navbar {
+  background: #686868;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #686868 37%, #151515 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #686868 37%, #151515 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #686868 37%, #151515 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#686868', endColorstr='#151515',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* line 1, sass/partials/_navigation.scss */
+.x-navbar .desktop .x-nav > li > a:hover, .x-navbar .desktop .x-nav > .x-active > a, .x-navbar .desktop .x-nav > .current-menu-item > a, .x-navbar .desktop .sub-menu a:hover, .x-navbar .desktop .sub-menu .x-active > a, .x-navbar .desktop .sub-menu .current-menu-item > a, .x-navbar .desktop .x-nav .x-megamenu > .sub-menu > li > a, .x-navbar .mobile .x-nav li > a:hover, .x-navbar .mobile .x-nav .x-active > a, .x-navbar .mobile .x-nav .current-menu-item > a {
+  color: #ed1c24 !important;
+}
+
+/* line 5, sass/partials/_navigation.scss */
+.x-topbar .p-info, .x-topbar .p-info a, .x-navbar .desktop .x-nav > li > a, .x-navbar .desktop .sub-menu a, .x-navbar .mobile .x-nav li > a, .x-breadcrumb-wrap a, .x-breadcrumbs .delimiter {
+  color: #ffffff !important;
+}
+
+/* line 1, sass/partials/_footer.scss */
+.x-colophon {
+  position: relative;
+  border-top: 1px solid #d4d4d4;
+  background-color: #1a1a1a;
+  box-shadow: 0 -0.125em 0.25em 0 rgba(0, 0, 0, 0.075);
+}
+
+/* line 8, sass/partials/_footer.scss */
+.widget {
+  text-shadow: none !important;
+  color: #ffffff;
+}
+
+/* line 13, sass/partials/_footer.scss */
+.fblock1 {
+  width: 20%;
+  display: block;
+  float: left;
+}
+/* line 17, sass/partials/_footer.scss */
+.fblock1 img {
+  max-width: 273px;
+  height: auto;
+  display: block;
+}
+
+/* line 23, sass/partials/_footer.scss */
+.fblock2 {
+  width: 60%;
+  display: block;
+  float: left;
+  text-align: center;
+  padding-top: 1.0em;
+}
+
+/* line 30, sass/partials/_footer.scss */
+.fblock3 {
+  width: 20%;
+  display: block;
+  float: left;
+}
+
+/* line 2, sass/partials/_mixins.scss */
+#execphp-2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 39, sass/partials/_footer.scss */
+.x-colophon.top {
+  padding: 0.75% 0 0.825% !important;
+}

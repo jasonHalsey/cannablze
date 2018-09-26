@@ -1,0 +1,41 @@
+.x-colophon {
+    position: relative;
+    border-top: 1px solid #d4d4d4;
+    background-color: $dk_gray;
+    box-shadow: 0 -0.125em 0.25em 0 rgba(0,0,0,0.075);
+}
+
+.widget{
+	text-shadow: none!important;
+	color:$white;
+}
+
+.fblock1{
+	width:20%;
+	display: block;
+	float:left;
+	img{
+		max-width: 273px;
+		height:auto;
+		display: block;
+	}
+}
+.fblock2{
+	width:60%;
+	display: block;
+	float:left;
+	text-align: center;
+	padding-top:1.0em;
+}
+.fblock3{
+	width:20%;
+	display: block;
+	float:left;
+}
+#execphp-2{
+	@include clearfix;
+}
+
+.x-colophon.top {
+    padding: 0.75% 0 0.825%!important;
+}
