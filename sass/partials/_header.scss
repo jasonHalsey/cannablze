@@ -19,3 +19,27 @@
     background: linear-gradient(to bottom, rgba(104,104,104,1) 37%,rgba(21,21,21,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#686868', endColorstr='#151515',GradientType=0 ); /* IE6-9 */
 }
+
+.work_together_cta{
+    display: inline-block;
+    color:$white;
+    background-color: $red;
+    padding: 0.25em 1.0em;
+    float: right;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top:18px;
+    border-radius: 0.25em;
+    font-size: 1.25em;
+
+}
+
+.x-navbar .desktop .x-nav > li > a:not(.x-btn-navbar-woocommerce) {
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+}
+
+.x-nav-wrap{
+    @include clearfix;
+    float: right;
+}

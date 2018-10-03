@@ -1,10 +1,16 @@
 jQuery(document).ready(function() {
 
-addHeaderCTA();
+	addHeaderCTA();
+
+
+
 
 }); 
 
 //Add CTA to header above navigation
 function addHeaderCTA() {
-  jQuery( ".x-nav-wrap" ).append( "<a href='#' class='work_together_cta'>Lets Work Together</a>" );
+  jQuery( ".x-nav-wrap" ).prepend( "<a href='#' class='work_together_cta'>Lets Work Together</a>" );
 }
+
+
+

@@ -9,9 +9,14 @@ Version: 1.0.0
 Template: x
 
 */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600i,800i);
 
 @import "partials/mixins";
 @import "partials/variables";
+@import "partials/typography";
 @import "partials/header";
 @import "partials/navigation";
 @import "partials/footer";
+
+@import "partials/home";
+@import "partials/landing";
